@@ -1,0 +1,30 @@
+h1 {
+    font-size: 24pt;
+    margin: auto;
+    text-align:center;
+}
+.test .num_question {
+    border: 1px solid #000;
+    float: left;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    width: 40px;
+    clear: both;
+}
+body, div {
+    color: #000;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 11pt;
+    text-align: justify;
+}
+.formula {
+    width: 33px;
+    height: 16px;
+}
+/*
+body {
+    background-color: #565960;
+    color: azure;
+}
+*/
