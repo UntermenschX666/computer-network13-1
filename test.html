@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="style.css">
     <title> Компьютерные сети </title>
 </head>
-<body>
+<body onload="startTimer(2, 0)">
     <h1> Лабараторная работа № 13.1 </h1>
     <hr>
     <h1> Тест </h1>
@@ -39,7 +39,7 @@
              <div class="answers1">
                 <input name="answer1" type="radio" value="1"> <span> 3</span>
                 <input name="answer1" type="radio" value="2"> <span> 5</span>
-                <input name="answer1" type="radio" value="3" checked> <span>+-5</span>
+                <input name="answer1" type="radio" value="3"> <span>+-5</span>
             </div>
             <span></span>
         </div>        <div class="num_question"> 2 </div>
@@ -65,7 +65,7 @@
              <div class="answers2">
                 <input name="answer2" type="radio" value="1"> <span> 1863 </span>
                 <input name="answer2" type="radio" value="2"> <span> 1917 </span>
-                <input name="answer2" type="radio" value="3" checked> <span>1993 </span>
+                <input name="answer2" type="radio" value="3"> <span>1993 </span>
             </div>
             <span></span>
         </div>
@@ -92,7 +92,7 @@
              <div class="answers3">
                 <input name="answer3" type="radio" value="1"> <span> Акры </span>
                 <input name="answer3" type="radio" value="2"> <span> Абаджу </span>
-                <input name="answer3" type="radio" value="3" checked> <span> Ганы </span>
+                <input name="answer3" type="radio" value="3"> <span> Ганы </span>
             </div>
             <span></span>
         </div>
@@ -119,7 +119,7 @@
              <div class="answers4">
                 <input name="answer4" type="radio" value="1"> <span> Путин </span>
                 <input name="answer4" type="radio" value="2"> <span> Путин </span>
-                <input name="answer4" type="radio" value="3" checked> <span>Путин</span>
+                <input name="answer4" type="radio" value="3"> <span>Путин</span>
             </div>
             <span></span>
         </div>
@@ -149,7 +149,9 @@
             </div>
             <span></span>
         </div>
+
         <p style="text-align: left"><button type="button" id="check" onclick="checkTest()"> Проверить </button>
+        <p style="text-align: left"><button type="button" onclick="remake()"> Пройти заново </button>
     </div>
     <h2> Ваш результат: </h2>
     <p id="result" style="font-size: 15pt"><b></b></p>
